@@ -63,9 +63,25 @@ body{
 .d12{
 	height: 40px;
 }
+@keyframes BBbounce {
+	0% {left: 0px; font-size: medium; color: rgb(183, 183, 183);}
+	50% {font-size: x-large; color: white;}
+	100% {left: calc(100% - 20px); font-size: medium; color: rgb(183, 183, 183)}
+}
 .d13{
+	/* moje */
 	height: 40px;
-
+	background-color: #b41150;
+}
+.d13 div {
+	text-align: center;
+	line-height: 40px;
+	width: 20px;
+	animation-name: BBbounce;
+  	animation-duration: 2s;
+	position: relative;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
 }
 .d14{
 	height: 40px;
@@ -89,7 +105,7 @@ body{
 .d18{
 	height: 40px;
 
-
+}
 .d19{
 	height: 40px;
 
